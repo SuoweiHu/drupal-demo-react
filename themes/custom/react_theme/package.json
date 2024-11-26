@@ -1,42 +1,10 @@
 {
-  "name": "olivero_npm",
-  "version": "1.0.0",
-  "description": "Olivero is the default theme for Drupal 10. It is a flexible, colorable theme with a responsive and mobile-first layout, supporting 13 regions.",
-  "main": "./js/src/index.jsx",
-  "directories": {
-    "test": "tests"
-  },
-  "scripts": {
-    "old____build": "NODE_ENV=production webpack",
-    "old____build:dev": "webpack --config webpack.config.js --mode development",
-    "build": "webpack --config webpack.config.js --mode development",
-    "start": "webpack --watch",
-    "watch": "webpack --watch"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@emotion/react": "^11.13.3",
-    "@emotion/styled": "^11.13.0",
-    "@fontsource/roboto": "^5.1.0",
-    "@mui/icons-material": "^6.1.6",
-    "@mui/material": "^6.1.6",
-    "@mui/styled-engine-sc": "^6.1.6",
-    "browser": "^0.2.6",
-    "prop-types": "^15.8.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "styled-components": "^6.1.13"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.26.0",
-    "@babel/preset-env": "^7.26.0",
-    "@babel/preset-react": "^7.25.9",
-    "babel-loader": "^9.2.1",
-    "ts-loader": "^9.5.1",
-    "typescript": "^5.6.3",
-    "webpack": "^5.96.1",
-    "webpack-cli": "^5.1.4",
-    "webpack-shell-plugin-next": "^2.3.2"
+    "name":            "olivero_npm",
+    "version":         "1.0.0",
+    "description":     "N/A",
+    "author":          "Simon Hu",
+    "license":         "ISC",
+    "dependencies":    { "@emotion/react": "^11.13.3","@emotion/styled": "^11.13.0","@fontsource/roboto": "^5.1.0","@mui/icons-material": "^6.1.6","@mui/material": "^6.1.6","@mui/styled-engine-sc": "^6.1.6","browser": "^0.2.6","prop-types": "^15.8.1","react": "^18.3.1","react-dom": "^18.3.1","styled-components": "^6.1.13"},
+    "devDependencies": { "@babel/core": "^7.26.0","@babel/preset-env": "^7.26.0","@babel/preset-react": "^7.25.9","babel-loader": "^9.2.1","ts-loader": "^9.5.1","typescript": "^5.6.3","webpack": "^5.96.1","webpack-cli": "^5.1.4","webpack-shell-plugin-next": "^2.3.2"},
+    "scripts":         { "build": "webpack --config webpack.config.js && ../../../vendor/bin/drush cr", "watch": "webpack --watch --config webpack.config.js"}
   }
-}

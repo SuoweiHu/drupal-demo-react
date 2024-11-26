@@ -57,6 +57,7 @@ class Tile {
 console.log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
 
 document.querySelectorAll('react-tile-component').forEach((dom_component) => {
+
     // Getting data from the twig rendered html
     const data_jsonString  = dom_component.dataset.json;
     const data_json        = JSON.parse(data_jsonString);

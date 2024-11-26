@@ -2,4 +2,4 @@
 lib_paragraph_tile:
   version: VERSION
   js:
-    js/dist_dev/tile.min.js: {minified: true}
+    js/dist/tile.min.js: {minified: true}
